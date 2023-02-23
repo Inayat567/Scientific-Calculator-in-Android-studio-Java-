@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/hist"
+    android:icon="@drawable/history"
+    app:showAsAction="ifRoom|collapseActionView"
+    android:title="history" />
+    <item
+        android:id="@+id/degree"
+        android:title="Degree"
+        />
+    <item
+        android:id="@+id/radian"
+        android:title="Radian"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        />
+</menu>
